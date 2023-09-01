@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #6459ac;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 0.5rem;
+  background-color: orange;
+  width: 100%;
+  margin-bottom: 4rem;
+  height: 7rem;
+}
+
+.logo {
+  margin-left: 10em;
+  width: 7rem;
+  margin-top: 1rem;
+  border-radius: 40%;
+  cursor: pointer;
+  margin-right: 5em;
+}
+
+nav {
+  width: 100vw;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  list-style-type: none;
+  align-items: end;
+  gap: 4rem;
+}
+
+nav ul li {
+  display: flex;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+nav ul li a:hover {   
+  transition: 0.5s;
+  color: #1f1f1f;
+}
+
+.cart {
+  margin-right: 15em;
+  width: 4rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}

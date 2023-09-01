@@ -1,0 +1,174 @@
+#title {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: wheat;
+  margin-left: 11rem;
+}
+
+.line {
+  width: 59.5vw;
+  height: 0.1rem;
+  background-color: wheat;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  margin-left: 11rem;
+}
+
+table {
+  width: 60vw;
+  border-collapse: collapse;
+  margin-top: 2rem;
+  box-shadow: 0 0 1rem #000;
+  background-color: rgb(157, 152, 189);
+  margin-left: 11rem;
+}
+
+.carrinho img {
+  width: 5rem;
+  height: 5rem;
+  align-self: center;
+  padding-bottom: 1rem;
+}
+
+.prod {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.descricao {
+  width: 40vw;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  font-weight: bold;
+  line-height: 1.4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  background-color: rgb(232, 212, 149);
+}
+
+td {
+  width: 10rem;
+}
+
+td button {
+  margin: 5px;
+  width: 1.5rem;
+  border: none;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+td .btntirar {
+  background-color: rgb(212, 61, 61);
+  cursor: pointer;
+}
+
+td .btnadd {
+  background-color: rgb(13, 156, 3);
+  cursor: pointer;
+}
+
+td .btntirar:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+td .btnadd:hover {
+  background-color: rgb(0, 255, 0);
+}
+
+td button:active {
+  opacity: 0.5;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  gap: 8rem;
+}
+
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-inline: 1rem;
+}
+
+.subtotal h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: wheat;
+}
+
+.subtotal p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#subtotal {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: orange;
+  text-decoration: underline;
+}
+
+#produtos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#produtos p {
+  font-size: 1rem;
+  gap: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+#produtos p span {
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.subtotal button {
+  margin-top: 3rem;
+  width: 10rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: wheat;
+  background-color: rgb(13, 156, 3);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.subtotal button:hover {
+  background-color: rgb(0, 212, 0);
+}
+
+.subtotal button:active {
+  opacity: 0.5;
+}

@@ -1,0 +1,32 @@
+#title {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 4em;
+  font-weight: bold;
+  margin-block-end: 0.2em;
+  color: #fff;
+}
+
+#subtitle {
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 2rem;
+  margin-block-start: 0;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.card-container {
+  width: 90vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}

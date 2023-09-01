@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="styleSheet" href="../css/Style.css" />
+  <link rel="styleSheet" href="../css/Carrinho.css" />
+  <link rel="styleSheet" href="../css/Formulario.css" />
+  <link rel="icon" type="image/x-icon" href="../assets/logo.png">
+  <title>José dos Games - Meu Carrinho</title>
+</head>
+
+<body>
+  <div class="content">
+    <div id="blur">
+      <header>
+        <div>
+          <img src="../assets/logo.png" alt="Logo" class="logo" />
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Pagina Inicial</a></li>
+            <li><a href="carrinho.html">Meu Carrinho</a></li>
+            <li><a href="compras.html">Pedidos Realizados</a></li>
+            <li><a href="sobre.html">Sobre Nós</a></li>
+          </ul>
+        </nav>
+      </header>
+  
+      <h1 id="title">MEU CARRINHO</h1>
+      <div class="line"></div>
+      <div class="container">
+        <table class="carrinho">
+          <thead>
+            <tr>
+              <th>Produto</th>
+              <th>Descrição</th>
+              <th>Preço</th>
+              <th>Quantidade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Conteudo do carrinho -->
+          </tbody>
+        </table>
+
+        <div class="subtotal">
+          <h3>Produtos</h3>
+          <div id="produtos">
+            <!-- Produtos -->
+          </div>
+          <h3>Subtotal</h3>
+          <p id="subtotal">
+            <!-- Subtotal -->
+          </p>
+          <button id="finalizar" onclick="toggleBlur()">
+            Finalizar Compra
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="formulario">
+      <h1 id="titleform">FINALIZAR COMPRA</h1>
+      <div class="formcontainer">
+        <form id="formulario">
+          <h2>Dados do Cliente</h2>
+          <div class="line2"></div>
+          <div class="cliente">
+            <div class="input">
+              <input type="text" name="cpf" id="cpf" onkeyup="maskcpf()" maxlength="14" onchange="validacpf()"
+                placeholder="CPF" required />
+            </div>
+            <div class="input">
+              <input type="text" name="nome" id="nome" placeholder="Nome" required />
+            </div>
+            <div class="input">
+              <input type="tel" name="telefone" id="telefone" onkeyup="masktelefone()" maxlength="15"
+                placeholder="Telefone" required />
+            </div>
+            <div class="input">
+              <input type="email" name="email" id="email" onchange="" placeholder="Email" required />
+            </div>
+          </div>
+          <br>
+          <br>
+          <h2>Endereço</h2>
+          <div class="line2"></div>
+          <div class="endereço">
+            <div class="input">
+              <input type="text" name="cep" class="form-controll" id="cep" onkeyup="maskcep()" maxlength="9"
+                onchange="APIcep()" placeholder="CEP" required />
+            </div>
+            <div class="input">
+              <input type="text" name="endereco" id="endereco" placeholder="Endereço" required />
+            </div>
+            <div class="input">
+              <input type="number" name="numero" id="numero" min="1" placeholder="Numero" required />
+            </div>
+            <div class="input">
+              <input type="text" name="bairro" id="bairro" placeholder="Bairro" required />
+            </div>
+            <div class="input">
+              <input type="text" name="cidade" id="cidade" placeholder="Cidade" required />
+            </div>
+            <div class="input">
+              <input type="text" name="estado" id="UF" placeholder="UF" required />
+            </div>
+          </div>
+          <div class="formbuttons">
+            <button onclick="toggleBlur()" type="button">Voltar</button>
+            <button type="submit">Finalizar</button>
+          </div>
+        </form>
+        <div class="subtotalform">
+          <h3>Produtos</h3>
+          <div id="produtosform">
+            <!-- Produtos -->
+          </div>
+          <h3>Subtotal</h3>
+          <p id="subtotalform">
+            <!-- Subtotal -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/local_storage.js"></script>
+  <script src="../js/Formulario.js"></script>
+  <script src="../js/popup.js"></script>
+  <script src="../js/Carrinho.js"></script>
+
+</body>
+
+</html>

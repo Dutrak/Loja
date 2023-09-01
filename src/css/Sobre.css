@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 11rem;
+    padding-top: 4rem;
+    gap: 7rem;
+}
+
+#title {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: wheat;
+    margin-left: 8rem;
+}
+
+.line {
+    width: 52vw;
+    height: 0.1rem;
+    background-color: wheat;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    margin-left: 12rem;
+}
+
+.container img {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: blanchedalmond;
+    align-self: center;
+    padding-left: 4rem;
+}

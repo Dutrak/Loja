@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="../assets/logo.png">
+  <link rel="styleSheet" href="../css/Style.css" />
+  <link rel="styleSheet" href="../css/Home.css" />
+  <link rel="styleSheet" href="../css/Card.css" />
+  <title>José dos Games - Pagina Inicial</title>
+</head>
+
+<body>
+
+  <div class="containerbody">
+    <header>
+      <div>
+        <img src="../assets/logo.png" alt="Logo" class="logo" />
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Pagina Inicial</a></li>
+          <li><a href="carrinho.html">Meu Carrinho</a></li>
+          <li><a href="compras.html">Pedidos Realizados</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h1 id="title">LOJA JOSÉ DOS GAMES</h1>
+      <h5 id="subtitle">Aqui você encontra os melhores jogos</h5>
+      <div class="card-container">
+        <div class="card" id="GTA">
+          <img src="../assets/gta_V.webp" alt="Capa do Gta V">
+          <h3>GTA V</h3>
+          <span class="description">
+            O jogo se passa no estado ficcional de San Andreas, com a história da campanha um jogador seguindo três
+            criminosos e seus esforços para realizarem assaltos sob a pressão de uma agência governamental.
+          </span>
+          <p id="preco">R$36,90</p>
+          <a class="btn" id="btn-gta">Adicionar ao Carrinho</a>
+        </div>
+        <div class="card" id="FIFA">
+          <img src="../assets/fifa_23.webp" alt="Capa do Fifa 23">
+          <h3>FIFA 23</h3>
+          <span class="description">
+            FIFA 23 traz o maior jogo do mundo aos gramados com a tecnologia HyperMotion2, entregando ainda mais
+            realismo nas partidas, a FIFA World Cup™ masculina e feminina, a inclusão de clubes femininos, recursos de
+            crossplay e muito mais.
+          </span>
+          <p id="preco">R$99,90</p>
+          <a class="btn" id="btn-fifa">Adicionar ao Carrinho</a>
+        </div>
+        <div class="card" id="STARDEW">
+          <img src="../assets/stardew.webp" alt="Capa do Stardew Valley">
+          <h3>STARDEW VALLEY</h3>
+          <span class="description">
+            Stardew Valley é um RPG de simulação de fazenda que surpreendeu o mundo de jogos e ganhou milhões de fãs.
+            Cuidar de uma fazenda, se aproximar dos moradores de uma cidade pequena e ajudar a renovar o Centro da
+            Comunidade.
+          </span>
+          <p id="preco">R$20,90</p>
+          <a class="btn" id="btn-stardew">Adicionar ao Carrinho</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="../js/local_storage.js"></script>
+  <script src="../js/Adicionar.js"></script>
+
+
+</body>
+
+</html>

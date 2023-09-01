@@ -1,0 +1,102 @@
+.content {
+  margin-left: 11rem;
+  padding-bottom: 2rem;
+}
+
+#title {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: wheat;
+  margin-top: 2rem;
+
+}
+
+.line {
+  width: 75vw;
+  height: 0.1rem;
+  background-color: wheat;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+table,
+tbody {
+  border: 1px solid black;
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+  background-color: rgb(124, 118, 161);
+}
+
+thead {
+  margin-bottom: 10rem;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+th {
+  font-weight: bold;
+  line-height: 1.2;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  background-color: rgb(232, 212, 149);
+}
+
+td {
+  padding-top: 10px;
+  width: 30vw;
+  height: 2px;
+  padding-left: 20px;
+  padding-top: 5px;
+  line-height: 0.9;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+
+}
+
+.produtos {
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.pedidos {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  margin-bottom: 5rem;
+  gap: 12rem;
+}
+
+td .produtos {
+  line-height: 1.5;
+  text-decoration: underline;
+  color: #c1f8ff 
+}
+
+#subtotal {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  color: rgb(243, 177, 53);
+  margin-top: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(252, 166, 6);
+}

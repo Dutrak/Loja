@@ -1,0 +1,159 @@
+#blur.active {
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+
+.formulario {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    width: 80rem;
+    height: 54rem;
+    background-color: rgb(161, 167, 167);
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.formulario.active {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: 0.5s;
+}
+
+.formulario button {
+    margin-top: 1.2rem;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: wheat;
+    transition: background 0.3s ease;
+    background-color: rgb(13, 156, 3);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: rgb(0, 212, 0);
+}
+
+.formulario button:active {
+    opacity: 0.5;
+}
+
+.formbuttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+
+#titleform {
+    padding-top: 2rem;
+    padding-bottom: 1.8rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: wheat;
+    text-align: center;
+}
+
+.line2 {
+    width: 26vw;
+    height: 0.1rem;
+    background-color: black;
+    opacity: 0.3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 10rem;
+}
+
+form h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+input {
+    width: 29.8rem;
+    height: 1.8rem;
+    font-size: 1rem;
+    font-weight: lighter;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    padding-left: 1rem;
+    background-color: ghostwhite
+}
+
+.endereço,
+.cliente {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.formcontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+}
+
+#subtotalform {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+
+#produtosform {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#produtosform p {
+    font-size: 1rem;
+    gap: 1rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+#produtosform p span {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.subtotalform {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding-inline: 1rem;
+}
+
+.subtotalform h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: wheat;
+}
+
+.subtotalform p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

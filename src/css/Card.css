@@ -1,0 +1,75 @@
+.card-container {
+  width: 90vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 23rem;
+  margin: auto;
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 2rem;
+  box-shadow: 0 0 1rem #000;
+  background-color: rgb(232, 212, 149);
+  border-radius: 2rem;
+}
+
+.card img {
+  max-height: 20rem;
+  object-fit: fill;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.card h3 {
+  text-align: center;
+  font-size: 2.3rem;
+  font-family: 'Segoe UI'
+}
+
+.card p {
+  font-size: 2rem;
+  font-family: 'Segoe UI';
+  padding-inline: 1.5rem;
+  color: orange;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+.card .description {
+  padding-inline: 1.5rem;
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.5;
+  color: #302f2f;
+
+}
+
+.card .btn {
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 5rem;
+  cursor: pointer;
+  border-radius: 0 0 2rem 2rem;
+  user-select:none;
+}
+
+.card .btn:hover {
+  background: green;
+  transition: 400ms;
+  
+}
+
+.card .btn:active {
+  transition: 1ms;
+  background: #000;
+  opacity: 0.2;
+}
